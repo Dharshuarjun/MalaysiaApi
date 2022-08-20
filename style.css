@@ -2,24 +2,55 @@ div{
     color:rgb(85, 23, 70);
     font-family: serif;
    gap:5rem;
-  
-    
+   
 }
-#popu,#state,#above18,#above60{
-    font-size: 30px;
+#popu{
+    font-size: 25px;
     margin-top: 15px;
     font-family: cursive;
+    color:rgb(106, 34, 84);
+}
+#state{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: cursive;
+    color:darkmagenta;
+}
+#above18{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: cursive;
+    color:rgb(38, 34, 134);
+
+}
+#above60{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: cursive;
+    color:rgb(79, 47, 17);
+
 }
 #txt{
     color:crimson;
-    font-size: 30px;
+    font-size: 25px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 input{
-    margin-top:15%;
+    margin-top:5%;
 }
 button{
-    font-size:30px ;
+    font-size:25px ;
     background-color: rgb(83, 165, 206);
     cursor: pointer;
+}
+h1{
+    margin-top: 5%;
+    color:blue;
+}
+p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color:firebrick;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
