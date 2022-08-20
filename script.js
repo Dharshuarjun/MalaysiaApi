@@ -1,6 +1,6 @@
 var div=document.createElement("div");
 div.innerHTML=`<input type="text"id="txt">
-<button type="button" onclick="foo()">Search</button>
+<button type="button" onclick="getData()">Search</button>
 <div id="popu"></div>
 <div id="state"></div>
 <div id="above18"></div>
@@ -10,7 +10,7 @@ div.style.textAlign="center";
 div.style.color="red";
 document.body.append(div);
 
-async function foo(){
+async function getData(){
     let cc=document.getElementById("txt").value;
 let res=await fetch(`https://myvaccination-backend.vercel.app/api/pop/${cc}`);
 let res1=await res.json();
@@ -31,3 +31,4 @@ console.log(res1.modifiedData["60andAbove"]);
 let result3=res1.modifiedData["60andAbove"];
 document.getElementById("above60").innerText=`60andAbove:${result3}`;
 }
+getData();
