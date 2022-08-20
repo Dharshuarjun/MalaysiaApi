@@ -1,7 +1,7 @@
 var div=document.createElement("div");
 div.innerHTML=`
 <h1>Malaysia Population</h1>
-<p class="header">Enter a State Name in Malaysia<p>
+<p class="header">Enter a State Name in Malaysia : <p>
 <input type="text"id="txt">
 <button type="button" onclick="getData()">Search</button>
 <div id="popu"></div>

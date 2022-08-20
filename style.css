@@ -36,7 +36,7 @@ div{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 input{
-    margin-top:5%;
+    margin-top:2%;
 }
 button{
     font-size:25px ;
@@ -46,11 +46,16 @@ button{
 h1{
     margin-top: 5%;
     color:blue;
+    margin-bottom:3%;
 }
 p{
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    color:firebrick;
+    color:crimson;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p.header{
+    margin-right:8%;
+       
 }
