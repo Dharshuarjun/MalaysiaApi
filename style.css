@@ -1,0 +1,25 @@
+div{
+    color:rgb(85, 23, 70);
+    font-family: serif;
+   gap:5rem;
+  
+    
+}
+#popu,#state,#above18,#above60{
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: cursive;
+}
+#txt{
+    color:crimson;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    margin-top:15%;
+}
+button{
+    font-size:30px ;
+    background-color: rgb(83, 165, 206);
+    cursor: pointer;
+}

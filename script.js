@@ -1,5 +1,6 @@
 var div=document.createElement("div");
-div.innerHTML=`<input type="text"id="txt">
+div.innerHTML=`
+<input type="text"id="txt">
 <button type="button" onclick="getData()">Search</button>
 <div id="popu"></div>
 <div id="state"></div>
@@ -7,7 +8,8 @@ div.innerHTML=`<input type="text"id="txt">
 <div id="above60"></div>
 `;
 div.style.textAlign="center";
-div.style.color="red";
+
+
 document.body.append(div);
 
 async function getData(){
@@ -31,4 +33,3 @@ console.log(res1.modifiedData["60andAbove"]);
 let result3=res1.modifiedData["60andAbove"];
 document.getElementById("above60").innerText=`60andAbove:${result3}`;
 }
-getData();
